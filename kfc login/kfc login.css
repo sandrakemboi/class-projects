@@ -1,0 +1,97 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    width: 370px;
+    margin: 40px auto;
+}
+h1{
+    text-transform: uppercase;
+}
+label{
+    color: rgb(84,83,83);
+}
+.input-group{
+    border: 1px solid rgb(84,83,83);
+    border-radius: 3px;
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+
+
+ion-icon{
+    height: 16px;
+    margin: 0px 10px;
+}
+.input-group input{
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-left: 1px solid rgb(84, 83,83);
+
+}
+.input-group input:focus{
+    outline: none;
+}
+.actions{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+.actions a{
+    text-decoration: none;
+    color:rgb(46, 42,42) ;
+    padding-right: 17px;
+}
+input[type="submit"]{
+    background-color: rgb(27,26,26);
+    color: whitesmoke;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+#fb-link{
+    background-color: #1877f2;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+     }
+     .separator{
+        display: flex;
+        align-items: center;
+     }
+  .separator hr{
+    flex: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
